@@ -6,7 +6,7 @@
 
 .logo{
     display: flex;
-    padding: 20px 100px;
+    padding: 9px 100px;
 
 
 }
@@ -27,10 +27,7 @@
 
 .left{
     display: flex;
-    box-sizing: border-box;
-    padding-inline-start: unset;
-    margin-top: 6px;
-    padding: 0px 100px;
+    padding:6px 32px 13px 56px;
     font-size: 1.3rem;
     color:#8292B4;
 
@@ -78,7 +75,6 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 160px;
   }
   
   .dropdown-content a {
@@ -99,8 +95,6 @@ footer{
     right: 0;
     background: #111;
     height: auto;
-    width: 100vw;
-
     padding-top: 40px;
     color: #fff;
 }
