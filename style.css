@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    display: flex;
+    padding: 30px 100px;
+
+
+}
+
+.navlist{
+    list-style: none;
+
+}
+.navlist ul{
+    text-decoration: none;
+    list-style: none;
+}
+.navlist li{
+    display: inline;
+    padding: 1px 19px 1px 1px;
+}
+
+.left{
+    display: flex;
+    padding: 7px 20px 25px 66px;
+    font-size: 1.4rem;
+    width: 50%;
+}
+.Right{
+    text-align: right;
+    width: 50%;
+
+}
+.button{
+    display: flex;
+    text-align:center;
+}
+
+.Resigter{
+
+}
