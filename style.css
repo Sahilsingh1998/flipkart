@@ -6,13 +6,14 @@
 
 .logo{
     display: flex;
-    padding: 30px 100px;
+    padding: 20px 100px;
 
 
 }
 
 .navlist{
     list-style: none;
+
 
 }
 .navlist ul{
@@ -26,14 +27,16 @@
 
 .left{
     display: flex;
-    padding: 7px 20px 25px 66px;
-    font-size: 1.4rem;
-    color: #8292B4;;
+    box-sizing: border-box;
+    padding-inline-start: unset;
+    margin-top: 6px;
+    padding: 0px 100px;
+    font-size: 1.3rem;
+    color:#8292B4;
 
 }
 .Right{
-    text-align: right;
-    width: 50%;
+   display: flex;
 
 }
 .button{
@@ -44,7 +47,7 @@
     padding: 9px 15px;
     color: #0650f0;
     border-radius: 50px;
-    margin: 4px 22px 0px 143px;
+    margin: 0px 17px -1px 139px;
     border-color: #88ADFF;
     font-size: 1rem;
     background-color: white;
@@ -52,10 +55,17 @@
 }
 
 .Resigter{
-    padding: 9px 15px;
+    padding: 0px 12px;
     border-radius: 100px;
     background: #FF7555;
     color: white;
     border-color: #FF7555;
+    font-size: 1rem;
     
+}
+.list{
+    padding: 7px 49px;
+    font-size: 20px;
+    margin: 2px;
+    color:#434344;
 }
