@@ -30,6 +30,7 @@
     padding:6px 32px 13px 56px;
     font-size: 1.3rem;
     color:#8292B4;
+    
 
 }
 
@@ -57,15 +58,15 @@
 }
 .list{
     position: relative;
-    display: inline-block;
+   
 }
 .dropbtn {
-    padding: 16px;
-    font-size:20px;
+    font-size: 17px;
     border: none;
     cursor: pointer;
-    padding: 11px 44px;
+    padding: 11px 29px;
     background-color: white;
+
   }
   
 .dropdown-content {
@@ -126,4 +127,28 @@ footer{
     padding: 5px;
     border-radius: 50%;
 
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 25px;
+    border: 1px solid royalblue;
+    color: #111;
+    padding: 40px;
+    border-style: none;
+}
+.left ul li{
+    position: relative;
+    
+}
+.left ul li:hover .submenu{
+    display: block;
+    
+
+
+}
+.submenu ul li a{
+    white-space: nowrap;
+  
 }
