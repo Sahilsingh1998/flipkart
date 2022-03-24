@@ -22,7 +22,7 @@
 }
 .navlist li{
     display: inline;
-    padding: 1px 19px 1px 1px;
+    margin: 0 10px;
 }
 
 .left{
@@ -30,6 +30,7 @@
     padding:6px 32px 13px 56px;
     font-size: 1.3rem;
     color:#8292B4;
+    text-decoration: none;
     
 
 }
@@ -133,22 +134,57 @@ footer{
     display: none;
     position: absolute;
     top: 25px;
-    border: 1px solid royalblue;
-    color: #111;
-    padding: 40px;
-    border-style: none;
+    box-shadow: 0px 4px 10px rgb(0 77 255 / 30%);
+    left:0;
+    border-radius: 16px 6px;
+    padding: 44px 0px 40px 45px;
+    
 }
 .left ul li{
     position: relative;
     
+    
+}
+.left ul li a{
+    text-decoration: none;
+    color: #8292B4;
+
 }
 .left ul li:hover .submenu{
     display: block;
     
-
-
+}
+.left ul li::after{
+    position: relative;
+    
 }
 .submenu ul li a{
     white-space: nowrap;
+    text-decoration: none;
+    color: #8292B4;
   
+}
+.submenubox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.borderright{
+    border-right: 1px solid grey;
+    
+}
+.marginleft25{
+    margin-left: 25px;
+
+}
+.left>ul>li::after{
+    content: '';
+    height: 3px;
+    background: #FF7555;
+    position: absolute;
+    left: -8px;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.left>ul>li:hover::after{
+    width: 100%;
 }
