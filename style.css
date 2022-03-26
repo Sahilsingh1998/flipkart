@@ -153,6 +153,7 @@ footer{
 .left ul li:hover .submenu{
     display: block;
     
+    
 }
 .left ul li::after{
     position: relative;
@@ -161,7 +162,11 @@ footer{
 .submenu ul li a{
     white-space: nowrap;
     text-decoration: none;
-    color: #8292B4;
+    color: #8a7e7e;
+  
+}
+.submenu ul li a:hover{
+  color: #0650f0;
   
 }
 .submenubox{
